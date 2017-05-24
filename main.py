@@ -14,6 +14,10 @@ def fun():
 
     ret, str = py_ext_t.fun_param_2(34, b"abcde324234531342345345abcd")
     print(ret, str)
+    
+    ret, str = py_ext_t.fun_param_str(34, r"abcde3d大健康24234531342345345abcd")
+    print(ret, str.decode('utf8'))
+    
 
 
 
